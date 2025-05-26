@@ -14,11 +14,11 @@ export const tabBarIcon = ({ color, size }: { color: string; size: number }) => 
 const API_URL = 'https://school-schedule-api-five.vercel.app/api';
 
 const DAYS = [
-  { label: 'Monday', value: 'Monday' },
-  { label: 'Tuesday', value: 'Tuesday' },
-  { label: 'Wednesday', value: 'Wednesday' },
-  { label: 'Thursday', value: 'Thursday' },
-  { label: 'Friday', value: 'Friday' },
+  { label: 'วันจันทร์', value: 'Monday' },
+  { label: 'วันอังคาร', value: 'Tuesday' },
+  { label: 'วันพุธ', value: 'Wednesday' },
+  { label: 'วันพฤหัสบดี', value: 'Thursday' },
+  { label: 'วันศุกร์', value: 'Friday' },
 ];
 
 export default function FullSchedule() {

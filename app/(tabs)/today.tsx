@@ -93,7 +93,7 @@ export default function TodayScreen() {
             </Text>
             <Text>เวลา: {item.start} - {item.end}</Text>
             <Text>ห้อง: {item.room}</Text>
-            {/* <Text>ครู: {item.teather}</Text> */}
+            <Text>ครู: {item.teacher}</Text>
           </View>
         ))
       )}

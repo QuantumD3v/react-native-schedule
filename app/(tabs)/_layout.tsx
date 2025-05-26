@@ -29,16 +29,37 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'ยินดีต้อนรับ',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'คำแนะนำ',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
+      />
+      <Tabs.Screen
+      name="ScheduleTable"
+      options={{
+        title: 'ตารางเรียนแบบรูป',
+        tabBarIcon: ({ color }) => <IconSymbol size={28} name="table.fill" color={color} />,
+      }}
+      />
+      <Tabs.Screen
+      name="today"
+      options={{
+        title: 'วันนี้',
+        tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.left.forwardslash.chevron.right" color={color} />,
+      }}
+      />
+      <Tabs.Screen
+      name="FullSchedule"
+      options={{
+        title: 'ทุกวัน',
+        tabBarIcon: ({ color }) => <IconSymbol size={28} name="table.fill" color={color} />,
+      }}
       />
     </Tabs>
   );
