@@ -1,0 +1,9 @@
+{
+  "build": {
+    "production": {
+      "workflow": "managed",
+      "distribution": "internal",
+      "platforms": ["ios"]
+    }
+  }
+}
